@@ -12,8 +12,10 @@
             for(let i=0;i<this.length; i++){
                 console.log(this[i], typeof(this[i]));
             }
+            this.forEach(elem => {
+                console.log(elem, typeof(elem))
+            })
         }
-        Array.prototype
         const arr1 = [1,2,true, {a:1,b:2}, "Kushal"]
         // console.log(arr1);
         arr1.typeDef();
