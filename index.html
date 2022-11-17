@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        Array.prototype.typeDef = function(){
+            for(let i=0;i<this.length; i++){
+                console.log(this[i], typeof(this[i]));
+            }
+        }
+        Array.prototype
+        const arr1 = [1,2,true, {a:1,b:2}, "Kushal"]
+        // console.log(arr1);
+        arr1.typeDef();
+    </script>
+</body>
+</html>
